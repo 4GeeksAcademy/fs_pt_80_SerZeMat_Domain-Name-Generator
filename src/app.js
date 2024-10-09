@@ -28,7 +28,5 @@ window.onload = function() {
 
   pronoun.forEach(i =>
     adj.forEach(j =>
-      noun.forEach(k => domain.forEach(l => console.log(`${i}${j}${k}${l}`)))
-    )
-  );
+      noun.forEach(k => domain.forEach(l => console.log(`${i}${j}${k}${l}`)))));
 };
